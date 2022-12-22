@@ -1,0 +1,33 @@
+selector.elementor-sticky--effects{ background-color: #fff !important;
+} 
+
+ selector{ transition: background-color 2s ease !important; } 
+
+ selector.elementor-sticky--effects >.elementor-container{ min-height: 70px; } 
+
+ selector > .elementor-container{ transition: min-height 1s ease !important; } 
+ 
+ .elementor-sticky--effects ul li a {
+    color: #24010C !important;
+}
+ .elementor-sticky--effects ul li a:hover {
+    color: #fefbeb !important;
+}
+.elementor-58 .elementor-element.elementor-element-22360d5 .elementor-nav-menu--main .elementor-item.elementor-item-active {
+    color: #FEFBEB !important;
+}
+
+
+/*sticky logo change*/
+
+/* HIDES THE DARK LOGO */
+.d-logo {
+ display: none;
+}
+/* SWITCHES LOGO ON SCROLL */
+.elementor-sticky--effects .d-logo {
+ display: inline-block;
+}
+.elementor-sticky--effects .l-logo {
+ display: none;
+}
